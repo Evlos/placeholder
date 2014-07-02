@@ -1,4 +1,5 @@
 NodeJS-Express-Placeholder
 ==========================
 
-(Incompleted) Image placeholder generator with HTTP server.
+Evlos$ node server.js
+Listening on port 8080
