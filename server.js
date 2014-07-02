@@ -15,8 +15,11 @@ app.get('/', function(req, res) {
 
 app.get('/*', function(req, res) {
   var args = parseurl(req).pathname.replace('/', '').split('x');
+  var width = args[0];
+  var height = args[1];
+  var font_size = Math.round(Math.max(12, Math.min(Math.min(args[0], args[1]) * 0.75, 0.75 * Math.max(args[0], args[1]) / 12)))
   res.writeHead(200, {'Content-Type': 'image/svg+xml'});
-  res.end('<svg xmlns="http://www.w3.org/2000/svg" width="' + args[0] + '" height="' + args[1] + '" viewBox="0 0 ' + args[0] + ' ' + args[1] + '" preserveAspectRatio="none"><rect width="' + args[0] + '" height="' + args[1] + '" fill="#eee"/><text text-anchor="middle" x="64" y="16" style="fill:#aaa;font-weight:bold;font-size:12px;font-family:Arial,Helvetica,sans-serif;dominant-baseline:central">' + args[0] + 'x' + args[1] + '</text></svg>');
+  res.end('<svg xmlns="http://www.w3.org/2000/svg" width="' + width + '" height="' + height + '" viewBox="0 0 ' + width + ' ' + height + '" preserveAspectRatio="none"><rect width="' + width + '" height="' + height + '" fill="#eee"/><text text-anchor="middle" x="' + width/2 + '" y="' + height/2 + '" style="fill:#aaa;font-weight:bold;font-size:' + font_size + 'px;font-family:Arial,Helvetica,sans-serif;dominant-baseline:central">' + width + 'x' + height + '</text></svg>');
   global_count ++;
 });
 
