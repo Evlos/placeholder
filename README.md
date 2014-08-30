@@ -8,14 +8,14 @@ NodeJS-Express-Placeholder
 
 **Example:**
 
-    <img src="http://evlos-placeholder.herokuapp.com/128x128" />
-    <img src="http://evlos-placeholder.herokuapp.com/32x32" />
-    <img src="http://evlos-placeholder.herokuapp.com/64x128" />
+    <img src="http://placeholder.aoi.im/128x128" />
+    <img src="http://placeholder.aoi.im/32x32" />
+    <img src="http://placeholder.aoi.im/64x128" />
 
 **Preview:**
 
-![](http://evlos-placeholder.herokuapp.com/128x128)
+![](http://placeholder.aoi.im/128x128)
 
-![](http://evlos-placeholder.herokuapp.com/32x32)
+![](http://placeholder.aoi.im/32x32)
 
-![](http://evlos-placeholder.herokuapp.com/64x128)
+![](http://placeholder.aoi.im/64x128)
