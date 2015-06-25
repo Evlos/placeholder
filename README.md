@@ -12,10 +12,12 @@ NodeJS-Express-Placeholder
     <img src="http://placeholder.zxc.im/32x32" />
     <img src="http://placeholder.zxc.im/64x128" />
 
-**Preview:**
+**Demo:**
 
 ![](http://placeholder.zxc.im/128x128)
 
 ![](http://placeholder.zxc.im/32x32)
 
 ![](http://placeholder.zxc.im/64x128)
+
+Demo is hosted by free quota on Heroku, it may work slowly.
