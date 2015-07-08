@@ -1,5 +1,7 @@
-NodeJS-Express-Placeholder
+Placeholder
 ==========================
+
+It actually won't generate any general image such as JPG or PNG, only text SVG will be produced.
 
 **Usage:**
 
@@ -8,16 +10,12 @@ NodeJS-Express-Placeholder
 
 **Example:**
 
-    <img src="http://placeholder.zxc.im/128x128" />
+    <img src="http://placeholder.zxc.im/512x128" />
     <img src="http://placeholder.zxc.im/32x32" />
     <img src="http://placeholder.zxc.im/64x128" />
 
 **Demo:**
 
-![](http://placeholder.zxc.im/128x128)
-
-![](http://placeholder.zxc.im/32x32)
-
-![](http://placeholder.zxc.im/64x128)
-
 Demo is hosted by free quota on Heroku, it may work slowly.
+
+![](http://placeholder.zxc.im/512x128)
