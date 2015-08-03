@@ -1,7 +1,7 @@
 Placeholder
 ==========================
 
-It actually won't generate any general image such as JPG or PNG, only text SVG will be produced.
+It actually won't generate any general image content such as JPG or PNG, only text SVG will be sent to the client.
 
 **Usage:**
 
