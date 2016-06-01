@@ -10,12 +10,12 @@ It actually won't generate any general image content such as JPG or PNG, only te
 
 **Example:**
 
-    <img src="http://placeholder.eternalelf.com/512x128" />
-    <img src="http://placeholder.eternalelf.com/32x32" />
-    <img src="http://placeholder.eternalelf.com/64x128" />
+    <img src="http://eternal-placeholder.herokuapp.com/512x128" />
+    <img src="http://eternal-placeholder.herokuapp.com/32x32" />
+    <img src="http://eternal-placeholder.herokuapp.com/64x128" />
 
 **Demo:**
 
 Demo is hosted by free quota on Heroku, it may work slowly.
 
-![](http://placeholder.eternalelf.com/512x128)
+![](http://eternal-placeholder.herokuapp.com/512x128)
