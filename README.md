@@ -1,7 +1,7 @@
 Placeholder
 ==========================
 
-It actually won't generate any general image content such as JPG or PNG, only text SVG will be sent to the client.
+It won't actually generate any image content such as JPG or PNG; only text SVG will be return to the client.
 
 **Usage:**
 
@@ -10,10 +10,10 @@ It actually won't generate any general image content such as JPG or PNG, only te
 
 **Example:**
 
-    <img src="http://ph.zxc.im/512x128" />
-    <img src="http://ph.zxc.im/32x32" />
-    <img src="http://ph.zxc.im/64x128" />
+    <img src="https://ph.zxc.im/512x128" />
+    <img src="https://ph.zxc.im/32x32" />
+    <img src="https://ph.zxc.im/64x128" />
 
 **Demo:**
 
-![](http://ph.zxc.im/512x128)
+![](https://ph.zxc.im/512x128)
