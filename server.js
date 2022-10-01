@@ -6,11 +6,21 @@ var parseurl = require('parseurl')
 var logger = require('morgan')
 var express = require('express')
 var app = express()
+var fs = require('fs')
+var path = require('path')
+var showdown = require('showdown')
 
 app.use(logger())
 
 app.get('/', function(req, res) {
   res.send('API Counting: ' + global_count)
+})
+
+app.get('/about', function(req, res) {
+  const converter = new showdown.Converter();
+  const markdown = String(fs.readFileSync(path.join(__dirname, './README.md')));
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.end(converter.makeHtml(markdown));
 })
 
 app.get('/*', function(req, res) {
